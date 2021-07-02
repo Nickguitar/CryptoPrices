@@ -3,12 +3,14 @@ PHP script to get BTC, ETH and DOGE prices every hour
 
 ### crypto.php
 Usage:
-$ ./crypto.php &
 
-Will run on background and log the prices every hour.
+```$ ./crypto.php &```
+
+Runs on background and log the prices every hour.
 
 ### crypto2fiat.php
 Usage:
+```
 $ ./crypto2fiat.php
 
 01/07/2021 07:31:34 | 165952.00 | 10628.88 | 1.23 | R$18,200.52
@@ -27,4 +29,6 @@ $ ./crypto2fiat.php
 01/07/2021 20:31:36 | 170337.22 | 10799.81 | 1.23 | R$18,601.50
 01/07/2021 21:31:36 | 172402.25 | 10834.29 | 1.24 | R$18,771.02
 01/07/2021 22:31:37 | 171557.73 | 10720.72 | 1.22 | R$18,637.44
+```
 
+Takes the values from crypto.db, your amount of each currency and calculate your balance in reais.
