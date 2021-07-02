@@ -11,7 +11,8 @@ Runs on background and log the prices every hour.
 ### crypto2fiat.php
 Usage:
 ```
-1. Select the amount of each currency in each constant
+First, select the amount of each currency in each constant. Then:
+
 $ ./crypto2fiat.php
 
 01/07/2021 07:31:34 | 165952.00 | 10628.88 | 1.23 | R$18,200.52
